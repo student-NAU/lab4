@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ua" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+
+    <title>Travel portal</title>
+    <style media="screen">
+      * {
+    margin: 0;
+    padding: 0;
+   }
+
+#Navbar{
+  height: 75px ;
+  background-color: #026df7;
+  display: flex;
+  align-items:center;
+  }
+
+
+  #tp{
+
+  }
+#Header{
+  height: 400px;
+  background-color: lightskyblue;
+  display: flex;
+  background-image: url("https://img2.akspic.ru/originals/2/4/4/7/97442-oblako-atmosfera-ukraina-pustynya-vecher-1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#MainSection{
+   margin-bottom: 75px;
+   margin-top: 75px;
+   margin-right: 100px;
+   margin-left: 100px;
+   height: 500px;
+
+ }
+
+ #Yellowparagraph{
+  height: 200px;
+
+  margin-bottom: 75px;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+
+  text-align: center;
+
+}
+#container{
+   display: flex;
+   justify-content: space-between;
+   height: 300px;
+   flex-direction: row;
+
+}
+.Orangebox{
+  height: 200px;
+  width: 48%;
+ display:block;
+}
+/* #Orangebox2{
+  height: 200px;
+  width: 48%;
+ display: block;
+
+} */
+
+.font4{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.size{
+  width: 50%;
+  height: 50%;
+
+
+}
+#PreFooter{
+  height: 40px;
+  background-color: #1c1b1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Footer{
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+
+}
+
+
+h1{
+  color: white;
+  text-align: left;
+}
+
+.font{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 10px;
+  flex-grow: 1;
+  margin: 5px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.font1{
+  color: white;
+  font-size: 68px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+.font2{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+
+
+}
+
+.font3{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.ko{
+  color: white;
+  text-align: center;
+  border: 6px solid #02caf7;
+  border-radius: 25px;
+  background-color: #02caf7;
+  width: 100px;
+}
+
+@media only screen and (max-width:749px) {
+  #Header {
+    background-attachment: inherit;
+}
+  }
+
+@media screen and (max-width: 500px){
+   .font{
+     display: none;
+   }
+
+
+   .font1{
+    font-size: 45px;
+   }
+
+   #Yellowparagraph{
+       font-size: 16px;
+   }
+
+   .font4{
+     font-size: 16px;
+   }
+
+   #container{
+
+     flex-direction: column;
+     justify-content: center;
+   }
+
+   .Orangebox{
+       width: 100%;
+
+   }
+
+
+   .font2{
+     font-size: 16px;
+   }
+
+   .size{
+     width: 80%;
+     height: 80%;
+    }
+   #MainSection{
+     margin-bottom: 150px;
+   }
+   #Yellowparagraph{
+     margin-bottom: 20px;
+   }
+}
+
+    </style>
+  </head>
+  <body>
+    <nav id="Navbar">
+<h1 >Travel portal</h1>
+<div class="font">
+  HOME
+</div>
+<div class="font">
+  EVENTS
+</div>
+<div class="font">
+  TAKE ACTION
+</div>
+    </nav>
+    <header id="Header">
+      <div >
+        <div class="font2">
+           We are all together
+        </div>
+        <div class="font1">
+          WE ARE UKRAINE
+        </div>
+        <center>
+        <div class="ko">
+         WATCH NOW
+        </div>
+        </center>
+      </div>
+
+    </header>
+    <section id="MainSection">
+     <p id="Yellowparagraph">
+
+      <b>Ukraine is a free region</b>  <br><br>
+    Ukraine is a state located in Eastern Europe, in the southwestern part of the East European Plain.
+      </p>
+     <div id="container">
+        <div class="Orangebox">
+        <center>  <img class="size" src="https://media.dyvys.info/2017/05/mountains-1366x768-006-696x433.jpg" alt="">  </center>
+          <div class="font4">
+            <strong>Transcarpathia</strong> is one of the most picturesque corners of Central Europe.
+          </div>
+
+        </div>
+        <div class="Orangebox">
+        <center>   <img class="size"  src="https://shostkanews.city/upload/article/o_1ed6i19j27n40c2dn1hc7hs33s.jpeg" alt="">  </center>
+            <div class="font4">
+<strong>Jarilgach </strong>  This island in the Kherson region still remains the most cherished uninhabited island in Europe.
+        </div>
+     </div>
+    </section>
+
+    <div id="PreFooter">
+      <div class="font2">
+        WANT TO NOW KNOW MORE ABOUT UKRAINE
+      </div>
+
+    </div>
+    <footer id="Footer">
+       <center>  <div class="font2">
+      2022 © Ukraine Trevel. ALL Rights Reserved
+    </div> </center></footer>
+  </body>
+</html>
